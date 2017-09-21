@@ -87,19 +87,33 @@ quiz = [ "I am white.",
  "I have never been self-conscious about any of my identities.",
  "I have never questioned any of my identities." ]
 
-puts "Welcome! Please answer T for True or F for False:"
-results = [0,0,0]
+puts "Welcome! let's get to Know Yourself. The following will only be seen by you."
+puts "Please consider each question, and answer T for True or F for False:"
 
-quiz.shuffle.take(25).each do |question|
+user_inputs = ARGF.argv
+quiz_length = user_inputs[0].to_i
+ARGV.clear
+puts "loading..."
+sleep(1.5)
+results = [0,0,0]
+quiz.shuffle.take(quiz_length).each do |question|
 	puts question
 	answer = gets.chomp
 	if answer.downcase == 't'
-		results[0] += 1
-	elsif answer.downcase == 'f'
-		results[1] += 1
-	else
+    results[0] += 1
+  elsif answer.downcase == 'f'
+    results[1] += 1
+  else
 		results[2] += 1
 	end
 end
-puts "Out of 25 Questions, You answered #{results[0]} true and #{results[1]} false."
-puts "Note what came up for you and close your laptop. Thank you for your time!"
+sleep(1.5)
+puts "Out of #{quiz_length} Questions, You answered #{results[0]} true and #{results[1]} false."
+sleep(1.5)
+puts "Questions answered TRUE represent priviledges you hold;  Hardships that you've not had to encounter before."
+sleep(3.5)
+puts "Take a minute to note what came up for you"
+sleep(10)
+puts "OK! close your laptop."
+puts
+"Thank you for your time!"
