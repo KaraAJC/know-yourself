@@ -101,23 +101,23 @@ quiz = [ "I am white.",
  "The internet is easily accessible from multiple sources,",
  "I have never been questioned of my presence at a store or other public location." ]
 
-puts "Welcome! let's get to Know Yourself. The following will only be seen by you."
-puts 'how many questions should you be asked today?'
+ap "Welcome! let's get to Know Yourself. The following will only be seen by you."
+puts 'how many questions should you be asked today? (1-100)'.purple
 user_inputs = gets.chomp
 quiz_length = user_inputs[0].to_i
 ARGV.clear
-puts 'loading...'
-puts 'Please consider each question, and answer (T) for True or (F) for False:'
+ap 'loading...'
+puts 'Please consider each question, and answer (T) for True or (F) for False:'.purple
 sleep(1.0)
 results_count = [0, 0, 0]
 questions_summary = {answered_yes: [], answered_no: []}
 quiz.shuffle.take(quiz_length).each do |question|
-	puts question
+	puts question.red
 	answer = gets.chomp
-	if answer[0].downcase == 't'
+	if answer.downcase == 't'
     results_count[0] += 1
     questions_summary[:answered_yes] << question
-  elsif answer[0].downcase == 'f'
+  elsif answer.downcase == 'f'
     results_count[1] += 1
     questions_summary[:answered_no] << question
   else
@@ -125,16 +125,16 @@ quiz.shuffle.take(quiz_length).each do |question|
   end
 end
 sleep(1.5)
-puts "Out of #{quiz_length} Questions, You answered #{results_count[0]} true and #{results_count[1]} false."
+ap "Out of #{quiz_length} Questions, You answered #{results_count[0]} true and #{results_count[1]} false."
 sleep(3.5)
-puts "Questions answered TRUE represent privileges you hold; Hardships that you've not had to encounter before."
+ap "Questions answered TRUE represent privileges you hold; Hardships that you've not had to encounter before."
 sleep(3.5)
-puts 'Take a minute to note what came up for you'
+ap 'Take a minute to note what came up for you'
 sleep(10)
-puts 'would you like a summary of your privileges?(yes or no)'
+puts 'would you like a summary of your privileges?(yes or no)'.purple
 summary_request = gets.chomp
-if summary_request == "yes"
+if summary_request.downcase == "yes"
  ap questions_summary
 end
-puts 'OK! close your laptop.'
-puts 'Thank you for your time!'
+ap 'OK! close your laptop.'
+ap 'Thank you for your time!'
