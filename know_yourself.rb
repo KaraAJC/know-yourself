@@ -101,31 +101,34 @@ quiz = [ "I am white.",
  "The internet is easily accessible from multiple sources,",
  "I have never been questioned of my presence at a store or other public location." ]
 
-puts 'Welcome! let\'s get to Know Yourself. The following will only be seen by you.'
-puts 'Please consider each question, and answer (T) for True or (F) for False:'
-
-# user_inputs = ARGF.argv
-quiz_length = 20 # user_inputs[0].to_i
-# ARGV.clear
+puts "Welcome! let's get to Know Yourself. The following will only be seen by you."
+puts 'how many questions should you be asked today?'
+user_inputs = gets.chomp
+quiz_length = user_inputs[0].to_i
+ARGV.clear
 puts 'loading...'
+puts 'Please consider each question, and answer (T) for True or (F) for False:'
 sleep(1.0)
-results = [0, 0, 0]
+results_count = [0, 0, 0]
+questions_summary = {answered_yes: [], answered_no: []}
 quiz.shuffle.take(quiz_length).each do |question|
 	puts question
 	answer = gets.chomp
 	if answer[0].downcase == 't'
-    results[0] += 1
+    results_count[0] += 1
+    questions_summary[:answered_yes] << question
   elsif answer[0].downcase == 'f'
-    results[1] += 1
+    results_count[1] += 1
+    questions_summary[:answered_no] << question
   else
-		results[2] += 1
+		results_count[2] += 1
   end
 end
 sleep(1.5)
-puts "Out of #{quiz_length} Questions, You answered #{results[0]} true and #{results[1]} false."
-sleep(1.5)
-# puts "Questions answered TRUE represent priviledges you hold;  Hardships that you've not had to encounter before."
-# sleep(3.5)
+puts "Out of #{quiz_length} Questions, You answered #{results_count[0]} true and #{results_count[1]} false."
+sleep(3.5)
+puts "Questions answered TRUE represent privileges you hold; Hardships that you've not had to encounter before."
+sleep(3.5)
 puts 'Take a minute to note what came up for you'
 sleep(10)
 puts 'would you like a summary of your privileges?(yes or no)'
