@@ -1,3 +1,5 @@
+require 'awesome_print'
+
 quiz = [ "I am white.",
  "I have never been discriminated against because of my skin color.",
  "I have never been the only person of my race in a room.",
@@ -114,5 +116,10 @@ sleep(1.5)
 # sleep(3.5)
 puts 'Take a minute to note what came up for you'
 sleep(10)
+puts 'would you like a summary of your privileges?(yes or no)'
+summary_request = gets.chomp
+if summary_request == "yes"
+ ap questions_summary
+end
 puts 'OK! close your laptop.'
 puts 'Thank you for your time!'
