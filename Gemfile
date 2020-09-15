@@ -1,1 +1,3 @@
-gem 'awesome_print'
+source "https://rubygems.org"
+
+gem "awesome_print"

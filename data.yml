@@ -1,0 +1,312 @@
+---
+privilege_types:
+  - name: Class
+    explainer: Your financial well-being.
+    slug: class
+    communities_affected: []
+  - name: Race
+    explainer: Your ethnic background as perceived by other people.
+    slug: race
+    communities_affected: []
+
+statements:
+  - sentence: I am white.
+    explainer: ""
+    privilege_type: race
+  - sentence: I have never been discriminated against because of my skin color.
+    explainer: ""
+    privilege_type: race
+  - sentence: I have never been the only person of my race in a room.
+    explainer: ""
+    privilege_type: race
+  - sentence: I have never been mocked for my accent.
+    explainer: ""
+    privilege_type: race # TODO: Revisit this one?
+  - sentence: I have never been told I am attractive 'for my race.'
+    explainer: ""
+    privilege_type: race
+  - sentence: I have never been a victim of violence because of my race.
+    explainer: ""
+    privilege_type: race
+  - sentence: I have never been called a racial slur.
+    explainer: ""
+    privilege_type: race
+  - sentence: I have never been told I 'sound white.'
+    explainer: ""
+    privilege_type: race
+  - sentence: A stranger has never asked to touch my hair, or asked if it is real.
+    explainer: ""
+    privilege_type: race
+  - sentence: I am heterosexual.
+    explainer: ""
+    privilege_type: sexuality
+  - sentence: My name is rarely mispronounced.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: I have never lied about my sexuality.
+    explainer: ""
+    privilege_type: sexuality
+  - sentence: I never had to 'come out.'
+    explainer: ""
+    privilege_type: sexuality
+  - sentence: I never doubted my parents’ acceptance of my sexuality.
+    explainer: ""
+    privilege_type: sexuality
+  - sentence: I have never been called a 'fag', 'dyke', 'fairy', or any other derogatory slur for homosexuals.
+    explainer: ""
+    privilege_type: sexuality
+  - sentence: I have never tried to hide my sexuality.
+    explainer: ""
+    privilege_type: sexuality
+  - sentence: I am always comfortable with P.D.A. with my partner in public.
+    explainer: ""
+    privilege_type: sexuality
+  - sentence: I have never pretended to be 'just friends' with my significant other.
+    explainer: ""
+    privilege_type: sexuality
+  - sentence: I have never been told I would “burn in hell” for my sexual orientation.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: I have never been ostracized by my religion for my sexual orientation.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: I have never been told that my sexuality is 'just a phase.'
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: I have never been violently threatened because of my sexuality.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: I am a man.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: I feel comfortable in the gender I was identified as at birth.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: I still identify as the gender I was identified at birth.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: Others do not question my gender.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: Others use my correct pronouns with no difficulty.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: I have never tried to change my gender.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: I have never been denied an opportunity because of my gender.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: I make more money than my professional counterparts of a different gender.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: I have never felt unsafe because of my gender.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: I have never been catcalled.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: I have never been raped, sexually harassed or assaulted.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: I work in a salaried job.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: My family and I have never lived below the poverty line.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: I don’t have any student loans.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: I have never gone to bed hungry.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: I have never been homeless.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: My parents pay some, or all of my bills.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: I don’t rely on public transportation.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: I buy new clothes at least once a month.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: I have never done my taxes myself.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: If something happens where I require a Lawyer, I have someone to call.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: I've/my family had the same doctor since I was young.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: I have never felt poor.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: I have never had to worry about making rent.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: I have never worked as a waiter, barista, bartender, or salesperson.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: I have had one or multiple unpaid internships.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: I went to summer camp.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: I went to private school.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: I graduated high school.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: I went to an elite college.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: I graduated college.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: My parents paid (at least some of) my tuition.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: I had a car in high school.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: I’ve never had a roommate.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: I've always had cable.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: I have traveled internationally.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: I travel internationally at least once a year.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: I studied abroad.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: I’ve never skipped a meal to save money.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: I don’t know what 'Sallie Mae' is.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: I have frequent flier miles.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: My parents are heterosexual.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: My parents are both alive.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: My parents are still married.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: I do not have any physical disabilities.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: I do not have any social disabilities.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: I do not have any learning disabilities.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: I have never had an eating disorder.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: I have never been depressed.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: I have never considered suicide.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: I have never attempted suicide.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: I have never taken medication for my mental health.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: I can afford medication if/when I need it.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: I have never been told I’m overweight or 'too skinny.'
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: I have never felt overweight or underweight or 'too skinny.'
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: I have never been shamed for my body type.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: I consider myself to be physically attractive.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: I can afford a therapist.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: I’ve used prescription drugs recreationally.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: I have never had an addiction.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: I have never been shamed for my religious beliefs.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: I have never been violently threatened or attacked for my religious beliefs.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: There is a place of worship for my religion in my town.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: I have never lied about my religion as self-defense.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: I have never lied about my ethnicity as self-defense.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: All my jobs have been accommodating of my religious practices.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: I am not nervous in airport security lines.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: "I have never heard this statement: 'You have been randomly selected for secondary passport control.'"
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: I have never been called a terrorist.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: Nobody has ever tried to 'save' me for my religious beliefs.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: I have never been cyber-bullied for any of my identities.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: I was not bullied as a child for any of my identities.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: I have never tried to distance myself from any of my identities.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: I have never been self-conscious about any of my identities.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: I have never questioned any of my identities.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: I feel privileged because of the identities I was born with.
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: The internet is easily accessible from multiple sources,
+    explainer: ""
+    privilege_type: <slug>
+  - sentence: I have never been questioned of my presence at a store or other public location.
+    explainer: ""
+    privilege_type: <slug>
