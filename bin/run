@@ -1,0 +1,67 @@
+#!/usr/bin/env ruby
+
+require_relative "../lib/know_yourself"
+require "awesome_print"
+require "yaml"
+
+PAUSE_SCALING = 0.1
+
+data = YAML.load(File.read("data.yml"))
+
+privilege_types = data["privilege_types"].each_with_object({}) do |privilege_data, types|
+  types[privilege_data["slug"]] = PrivilegeType.new(
+    privilege_data["name"],
+    privilege_data["explainer"],
+    privilege_data["communities_affected"],
+  )
+end
+
+statements = data["statements"].map do |statement_data|
+  Statement.new(
+    statement_data["sentence"],
+    statement_data["explainer"],
+    privilege_types[statement_data["privilege_type"]],
+  )
+end
+
+
+ap "Welcome! let's get to Know Yourself. The following will only be seen by you."
+puts 'how many questions should you be asked today? (1-100)'.purple
+user_inputs = gets.chomp
+quiz_length = user_inputs[0].to_i
+ARGV.clear
+ap 'loading...'
+
+quiz = Quiz.new(statements, quiz_length)
+
+puts 'Please consider each question, and answer (T) for True, (F) for False, or anything else to skip:'.purple
+sleep(PAUSE_SCALING * 1.0)
+results = quiz.run do |statement|
+  puts statement.sentence.red
+  answer = gets.chomp
+
+  if answer.downcase == "t"
+    true
+  elsif answer.downcase == "f"
+    false
+  else
+    nil
+  end
+end
+
+sleep(PAUSE_SCALING * 1.5)
+ap "Out of #{quiz.length} Questions, You answered #{results.counts[:true]} true and #{results.counts[:false]} false."
+sleep(PAUSE_SCALING * 3.5)
+ap "Questions answered TRUE represent privileges you hold; Hardships that you've not had to encounter before."
+sleep(PAUSE_SCALING * 3.5)
+ap 'Take a minute to note what came up for you'
+sleep(PAUSE_SCALING * 10)
+puts 'would you like a summary of your privileges?(yes or no)'.purple
+
+summary_request = gets.chomp
+if summary_request.downcase == "yes"
+ ap results.privileges
+end
+
+ap 'OK! close your laptop.'
+ap 'Thank you for your time!'
