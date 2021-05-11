@@ -8,6 +8,27 @@ privilege_types:
     explainer: Your ethnic background as perceived by other people.
     slug: race
     communities_affected: []
+  - name: Gender
+    explainer: Your gender as perceived by other people.
+    slug: gender
+  - name: Ability
+    explainer: Being physically or mentally typical to dominant culture.
+    slug: abled
+  - name: Body
+    explainer: Your body as perceived by other people.
+    slug: body
+  - name: Sexuality
+    explainer: Your relationships with others being typical to dominant culture.
+    slug: sexuality
+  - name: Religion
+    explainer: Your spirituality being typical to dominant culture.
+    slug: religion
+  - name: Family
+    explainer: Your family makeup being typical to dominant culture.
+    slug: family
+  - name: White Supremacy
+    explainer: An amalgamation of multiple priviledges, (mainly race and class) that dominate US culture. Based on 'Unpaking the invisible knapsack'
+    slug: whiteness
 
 statements:
   - sentence: I am white.
@@ -42,7 +63,7 @@ statements:
     privilege_type: sexuality
   - sentence: My name is rarely mispronounced.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: race
   - sentence: I have never lied about my sexuality.
     explainer: ""
     privilege_type: sexuality
@@ -66,208 +87,208 @@ statements:
     privilege_type: sexuality
   - sentence: I have never been told I would “burn in hell” for my sexual orientation.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: religion
   - sentence: I have never been ostracized by my religion for my sexual orientation.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: sexuality
   - sentence: I have never been told that my sexuality is 'just a phase.'
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: sexuality
   - sentence: I have never been violently threatened because of my sexuality.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: sexuality
   - sentence: I am a man.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: gender
   - sentence: I feel comfortable in the gender I was identified as at birth.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: gender
   - sentence: I still identify as the gender I was identified at birth.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: gender
   - sentence: Others do not question my gender.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: gender
   - sentence: Others use my correct pronouns with no difficulty.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: gender
   - sentence: I have never tried to change my gender.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: gender
   - sentence: I have never been denied an opportunity because of my gender.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: gender
   - sentence: I make more money than my professional counterparts of a different gender.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: gender
   - sentence: I have never felt unsafe because of my gender.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: gender
   - sentence: I have never been catcalled.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: gender
   - sentence: I have never been raped, sexually harassed or assaulted.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: gender
   - sentence: I work in a salaried job.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: class
   - sentence: My family and I have never lived below the poverty line.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: class
   - sentence: I don’t have any student loans.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: class
   - sentence: I have never gone to bed hungry.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: class
   - sentence: I have never been homeless.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: class
   - sentence: My parents pay some, or all of my bills.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: class
   - sentence: I don’t rely on public transportation.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: class
   - sentence: I buy new clothes at least once a month.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: class
   - sentence: I have never done my taxes myself.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: class
   - sentence: If something happens where I require a Lawyer, I have someone to call.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: class
   - sentence: I've/my family had the same doctor since I was young.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: class
   - sentence: I have never felt poor.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: class
   - sentence: I have never had to worry about making rent.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: class
   - sentence: I have never worked as a waiter, barista, bartender, or salesperson.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: class
   - sentence: I have had one or multiple unpaid internships.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: class
   - sentence: I went to summer camp.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: class
   - sentence: I went to private school.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: class
   - sentence: I graduated high school.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: class
   - sentence: I went to an elite college.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: class
   - sentence: I graduated college.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: class
   - sentence: My parents paid (at least some of) my tuition.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: class
   - sentence: I had a car in high school.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: class
   - sentence: I’ve never had a roommate.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: class
   - sentence: I've always had cable.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: class
   - sentence: I have traveled internationally.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: class
   - sentence: I travel internationally at least once a year.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: class
   - sentence: I studied abroad.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: class
   - sentence: I’ve never skipped a meal to save money.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: class
   - sentence: I don’t know what 'Sallie Mae' is.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: class
   - sentence: I have frequent flier miles.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: Class
   - sentence: My parents are heterosexual.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: family
   - sentence: My parents are both alive.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: family
   - sentence: My parents are still married.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: family
   - sentence: I do not have any physical disabilities.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: abled
   - sentence: I do not have any social disabilities.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: abled
   - sentence: I do not have any learning disabilities.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: abled
   - sentence: I have never had an eating disorder.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: abled
   - sentence: I have never been depressed.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: abled
   - sentence: I have never considered suicide.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: abled
   - sentence: I have never attempted suicide.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: abled
   - sentence: I have never taken medication for my mental health.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: abled
   - sentence: I can afford medication if/when I need it.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: class
   - sentence: I have never been told I’m overweight or 'too skinny.'
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: body
   - sentence: I have never felt overweight or underweight or 'too skinny.'
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: body
   - sentence: I have never been shamed for my body type.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: body
   - sentence: I consider myself to be physically attractive.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: body
   - sentence: I can afford a therapist.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: class
   - sentence: I’ve used prescription drugs recreationally.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: class
   - sentence: I have never had an addiction.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: <slug>  # not sure what this one is
   - sentence: I have never been shamed for my religious beliefs.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: religion
   - sentence: I have never been violently threatened or attacked for my religious beliefs.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: religion
   - sentence: There is a place of worship for my religion in my town.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: religion
   - sentence: I have never lied about my religion as self-defense.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: religion
   - sentence: I have never lied about my ethnicity as self-defense.
     explainer: ""
     privilege_type: <slug>
@@ -285,28 +306,200 @@ statements:
     privilege_type: <slug>
   - sentence: Nobody has ever tried to 'save' me for my religious beliefs.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: general
   - sentence: I have never been cyber-bullied for any of my identities.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: general
   - sentence: I was not bullied as a child for any of my identities.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: general
   - sentence: I have never tried to distance myself from any of my identities.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: general
   - sentence: I have never been self-conscious about any of my identities.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: general
   - sentence: I have never questioned any of my identities.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: general
   - sentence: I feel privileged because of the identities I was born with.
     explainer: ""
-    privilege_type: <slug>
-  - sentence: The internet is easily accessible from multiple sources,
+    privilege_type: class
+  - sentence: The internet is easily accessible from multiple sources.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: class
   - sentence: I have never been questioned of my presence at a store or other public location.
     explainer: ""
-    privilege_type: <slug>
+    privilege_type: general
+
+  - sentence: 1. I can if I wish arrange to be in the company of people of my race most of the time.
+    explainer: ""
+    privilege_type: whiteness
+  - sentence: 2. I can avoid spending time with people whom I was trained to mistrust and who have learned to mistrust my kind or me.
+    explainer: ""
+    privilege_type: whiteness
+  - sentence: 3. If I should need to move, I can be pretty sure of renting or purchasing housing in an area which I can afford and in which I would want to live.
+    explainer: ""
+    privilege_type: whiteness
+  - sentence: 4. I can be pretty sure that my neighbors in such a location will be neutral or pleasant to me.
+    explainer: ""
+    privilege_type: whiteness
+  - sentence: 5. I can go shopping alone most of the time, pretty well assured that I will not be followed or harassed.
+    explainer: ""
+    privilege_type: whiteness
+  - sentence: 6. I can turn on the television or open to the front page of the paper and see people of my race widely represented.
+    explainer: ""
+    privilege_type: whiteness
+  - sentence: 7. When I am told about our national heritage or about "civilization," I am shown that people of my color made it what it is.
+    explainer: ""
+    privilege_type: whiteness
+  - sentence: 8. I can be sure that my children will be given curricular materials that testify to the existence of their race.
+    explainer: ""
+    privilege_type: whiteness
+  - sentence: 9. If I want to, I can be pretty sure of finding a publisher for this piece on white privilege.
+    explainer: ""
+    privilege_type: whiteness
+  - sentence: 10. I can be pretty sure of having my voice heard in a group in which I am the only member of my race.
+    explainer: ""
+    privilege_type: whiteness
+  - sentence: 11. I can be casual about whether or not to listen to another person's voice in a group in which they are the only member of
+  their race.
+    explainer: ""
+    privilege_type: whiteness
+  - sentence: 12. I can go into a music shop and count on finding the music of my race represented, into a supermarket and find the staple
+  foods which fit with my cultural traditions, into a hairdresser's shop and find someone who can cut my hair.
+    explainer: ""
+    privilege_type: whiteness
+  - sentence: 13. Whether I use checks, credit cards or cash, I can count on my skin color not to work against the appearance of financial
+  reliability.
+    explainer: ""
+    privilege_type: whiteness
+  - sentence: 14. I can arrange to protect my children most of the time from people who might not like them.
+    explainer: ""
+    privilege_type: whiteness
+  - sentence: 15. I do not have to educate my children to be aware of systemic racism for their own daily physical protection.
+    explainer: ""
+    privilege_type: whiteness
+  - sentence: 16. I can be pretty sure that my children's teachers and employers will tolerate them if they fit school and workplace norms;
+  my chief worries about them do not concern others' attitudes toward their race.
+    explainer: ""
+    privilege_type: whiteness
+  - sentence: 17. I can talk with my mouth full and not have people put this down to my color.
+    explainer: ""
+    privilege_type: whiteness
+  - sentence: 18. I can swear, or dress in second hand clothes, or not answer letters, without having people attribute these choices to the
+  bad morals, the poverty or the illiteracy of my race.
+    explainer: ""
+    privilege_type: whiteness
+  - sentence: 19. I can speak in public to a powerful male group without putting my race on trial.
+    explainer: ""
+    privilege_type: whiteness
+  - sentence: 20. I can do well in a challenging situation without being called a credit to my race.
+    explainer: ""
+    privilege_type: whiteness
+  - sentence: 21. I am never asked to speak for all the people of my racial group.
+    explainer: ""
+    privilege_type: whiteness
+  - sentence: 22. I can remain oblivious of the language and customs of persons of color who constitute the world's majority without
+  feeling in my culture any penalty for such oblivion.
+    explainer: ""
+    privilege_type: whiteness
+  - sentence: 23. I can criticize our government and talk about how much I fear its policies and behavior without being seen as a cultural
+  outsider.
+    explainer: ""
+    privilege_type: whiteness
+  - sentence: 24. I can be pretty sure that if I ask to talk to the "person in charge", I will be facing a person of my race.
+    explainer: ""
+    privilege_type: whiteness
+  - sentence: 25. If a traffic cop pulls me over or if the IRS audits my tax return, I can be sure I haven't been singled out because of my
+  race.
+    explainer: ""
+    privilege_type: whiteness
+  - sentence: 26. I can easily buy posters, post-cards, picture books, greeting cards, dolls, toys and children's magazines featuring
+  people of my race.
+    explainer: ""
+    privilege_type: whiteness
+  - sentence: 27. I can go home from most meetings of organizations I belong to feeling somewhat tied in, rather than isolated,
+  out-of-place, outnumbered, unheard, held at a distance or feared.
+    explainer: ""
+    privilege_type: whiteness
+  - sentence: 28. I can be pretty sure that an argument with a colleague of another race is more likely to jeopardize their chances for
+  advancement than to jeopardize mine.
+    explainer: ""
+    privilege_type: whiteness
+  - sentence: 29. I can be pretty sure that if I argue for the promotion of a person of another race, or a program centering on race, this
+  is not likely to cost me heavily within my present setting, even if my colleagues disagree with me.
+    explainer: ""
+    privilege_type: whiteness
+  - sentence: 30. If I declare there is a racial issue at hand, or there isn't a racial issue at hand, my race will lend me more
+  credibility for either position than a person of color will have.
+    explainer: ""
+    privilege_type: whiteness
+  - sentence: 31. I can choose to ignore developments in minority writing and minority activist programs, or disparage them, or learn from
+  them, but in any case, I can find ways to be more or less protected from negative consequences of any of these choices.
+    explainer: ""
+    privilege_type: whiteness
+  - sentence: 32. My culture gives me little fear about ignoring the perspectives and powers of people of other races.
+    explainer: ""
+    privilege_type: whiteness
+  - sentence: 33. I am not made acutely aware that my shape, bearing or body odor will be taken as a reflection on my race.
+    explainer: ""
+    privilege_type: whiteness
+  - sentence: 34. I can worry about racism without being seen as self-interested or self-seeking.
+    explainer: ""
+    privilege_type: whiteness
+  - sentence: 35. I can take a job with an affirmative action employer without having my co-workers on the job suspect that I got it
+  because of my race.
+    explainer: ""
+    privilege_type: whiteness
+  - sentence: 36. If my day, week or year is going badly, I need not ask of each negative episode or situation whether it had racial
+  overtones.
+    explainer: ""
+    privilege_type: whiteness
+  - sentence: 37. I can be pretty sure of finding people who would be willing to talk with me and advise me about my next steps,
+  professionally.
+    explainer: ""
+    privilege_type: whiteness
+  - sentence: 38. I can think over many options, social, political, imaginative or professional, without asking whether a person of my race
+  would be accepted or allowed to do what I want to do.
+    explainer: ""
+    privilege_type: whiteness
+  - sentence: 39. I can be late to a meeting without having the lateness reflect on my race.
+    explainer: ""
+    privilege_type: whiteness
+
+  - sentence: 40. I can choose public accommodation without fearing that people of my race cannot get in or will be mistreated in the
+  places I have chosen.
+    explainer: ""
+    privilege_type: whiteness
+  - sentence: 41. I can be sure that if I need legal or medical help, my race will not work against me.
+    explainer: ""
+    privilege_type: whiteness
+  - sentence: 42. I can arrange my activities so that I will never have to experience feelings of rejection owing to my race.
+    explainer: ""
+    privilege_type: whiteness
+  - sentence: 43. If I have low credibility as a leader I can be sure that my race is not the problem.
+    explainer: ""
+    privilege_type: whiteness
+  - sentence: 44. I can easily find academic courses and institutions which give attention only to people of my race.
+    explainer: ""
+    privilege_type: whiteness
+  - sentence: 45. I can expect figurative language and imagery in all of the arts to testify to experiences of my race.
+    explainer: ""
+    privilege_type: whiteness
+  - sentence: 46. I can chose blemish cover or bandages in "flesh" color and have them more or less match my skin.
+    explainer: ""
+    privilege_type: whiteness
+  - sentence: 47. I can travel alone or with my spouse without expecting embarrassment or hostility in those who deal with us.
+    explainer: ""
+    privilege_type: whiteness
+  - sentence: 48. I have no difficulty finding neighborhoods where people approve of our household.
+    explainer: ""
+    privilege_type: whiteness
+  - sentence: 49. My children are given texts and classes which implicitly support our kind of family unit and do not turn them against my
+  choice of domestic partnership.
+    explainer: ""
+    privilege_type: whiteness
+  - sentence: 50. I will feel welcomed and "normal" in the usual walks of public life, institutional and social.
+    explainer: ""
+    privilege_type: whiteness
