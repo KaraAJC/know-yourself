@@ -11,24 +11,31 @@ privilege_types:
   - name: Gender
     explainer: Your gender as perceived by other people.
     slug: gender
+    communities_affected: []
   - name: Ability
     explainer: Being physically or mentally typical to dominant culture.
     slug: abled
+    communities_affected: []
   - name: Body
     explainer: Your body as perceived by other people.
     slug: body
+    communities_affected: []
   - name: Sexuality
     explainer: Your relationships with others being typical to dominant culture.
     slug: sexuality
+    communities_affected: []
   - name: Religion
     explainer: Your spirituality being typical to dominant culture.
     slug: religion
+    communities_affected: []
   - name: Family
     explainer: Your family makeup being typical to dominant culture.
     slug: family
+    communities_affected: []
   - name: White Supremacy
     explainer: An amalgamation of multiple priviledges, (mainly race and class) that dominate US culture. Based on 'Unpaking the invisible knapsack'
     slug: whiteness
+    communities_affected: []
 
 statements:
   - sentence: I am white.
@@ -362,16 +369,13 @@ statements:
   - sentence: 10. I can be pretty sure of having my voice heard in a group in which I am the only member of my race.
     explainer: ""
     privilege_type: whiteness
-  - sentence: 11. I can be casual about whether or not to listen to another person's voice in a group in which they are the only member of
-  their race.
+  - sentence: 11. I can be casual about whether or not to listen to another person's voice in a group in which they are the only member of their race.
     explainer: ""
     privilege_type: whiteness
-  - sentence: 12. I can go into a music shop and count on finding the music of my race represented, into a supermarket and find the staple
-  foods which fit with my cultural traditions, into a hairdresser's shop and find someone who can cut my hair.
+  - sentence: 12. I can go into a music shop and count on finding the music of my race represented, into a supermarket and find the staple foods which fit with my cultural traditions, into a hairdresser's shop and find someone who can cut my hair.
     explainer: ""
     privilege_type: whiteness
-  - sentence: 13. Whether I use checks, credit cards or cash, I can count on my skin color not to work against the appearance of financial
-  reliability.
+  - sentence: 13. Whether I use checks, credit cards or cash, I can count on my skin color not to work against the appearance of financial reliability.
     explainer: ""
     privilege_type: whiteness
   - sentence: 14. I can arrange to protect my children most of the time from people who might not like them.
@@ -380,15 +384,13 @@ statements:
   - sentence: 15. I do not have to educate my children to be aware of systemic racism for their own daily physical protection.
     explainer: ""
     privilege_type: whiteness
-  - sentence: 16. I can be pretty sure that my children's teachers and employers will tolerate them if they fit school and workplace norms;
-  my chief worries about them do not concern others' attitudes toward their race.
+  - sentence: 16. I can be pretty sure that my children's teachers and employers will tolerate them if they fit school and workplace norms; my chief worries about them do not concern others' attitudes toward their race.
     explainer: ""
     privilege_type: whiteness
   - sentence: 17. I can talk with my mouth full and not have people put this down to my color.
     explainer: ""
     privilege_type: whiteness
-  - sentence: 18. I can swear, or dress in second hand clothes, or not answer letters, without having people attribute these choices to the
-  bad morals, the poverty or the illiteracy of my race.
+  - sentence: 18. I can swear, or dress in second hand clothes, or not answer letters, without having people attribute these choices to the bad morals, the poverty or the illiteracy of my race.
     explainer: ""
     privilege_type: whiteness
   - sentence: 19. I can speak in public to a powerful male group without putting my race on trial.
@@ -400,43 +402,34 @@ statements:
   - sentence: 21. I am never asked to speak for all the people of my racial group.
     explainer: ""
     privilege_type: whiteness
-  - sentence: 22. I can remain oblivious of the language and customs of persons of color who constitute the world's majority without
-  feeling in my culture any penalty for such oblivion.
+  - sentence: 22. I can remain oblivious of the language and customs of persons of color who constitute the world's majority without feeling in my culture any penalty for such oblivion.
     explainer: ""
     privilege_type: whiteness
-  - sentence: 23. I can criticize our government and talk about how much I fear its policies and behavior without being seen as a cultural
-  outsider.
+  - sentence: 23. I can criticize our government and talk about how much I fear its policies and behavior without being seen as a cultural outsider.
     explainer: ""
     privilege_type: whiteness
   - sentence: 24. I can be pretty sure that if I ask to talk to the "person in charge", I will be facing a person of my race.
     explainer: ""
     privilege_type: whiteness
-  - sentence: 25. If a traffic cop pulls me over or if the IRS audits my tax return, I can be sure I haven't been singled out because of my
-  race.
+  - sentence: 25. If a traffic cop pulls me over or if the IRS audits my tax return, I can be sure I haven't been singled out because of my race.
     explainer: ""
     privilege_type: whiteness
-  - sentence: 26. I can easily buy posters, post-cards, picture books, greeting cards, dolls, toys and children's magazines featuring
-  people of my race.
+  - sentence: 26. I can easily buy posters, post-cards, picture books, greeting cards, dolls, toys and children's magazines featuring people of my race.
     explainer: ""
     privilege_type: whiteness
-  - sentence: 27. I can go home from most meetings of organizations I belong to feeling somewhat tied in, rather than isolated,
-  out-of-place, outnumbered, unheard, held at a distance or feared.
+  - sentence: 27. I can go home from most meetings of organizations I belong to feeling somewhat tied in, rather than isolated, out-of-place, outnumbered, unheard, held at a distance or feared.
     explainer: ""
     privilege_type: whiteness
-  - sentence: 28. I can be pretty sure that an argument with a colleague of another race is more likely to jeopardize their chances for
-  advancement than to jeopardize mine.
+  - sentence: 28. I can be pretty sure that an argument with a colleague of another race is more likely to jeopardize their chances for advancement than to jeopardize mine.
     explainer: ""
     privilege_type: whiteness
-  - sentence: 29. I can be pretty sure that if I argue for the promotion of a person of another race, or a program centering on race, this
-  is not likely to cost me heavily within my present setting, even if my colleagues disagree with me.
+  - sentence: 29. I can be pretty sure that if I argue for the promotion of a person of another race, or a program centering on race, this is not likely to cost me heavily within my present setting, even if my colleagues disagree with me.
     explainer: ""
     privilege_type: whiteness
-  - sentence: 30. If I declare there is a racial issue at hand, or there isn't a racial issue at hand, my race will lend me more
-  credibility for either position than a person of color will have.
+  - sentence: 30. If I declare there is a racial issue at hand, or there isn't a racial issue at hand, my race will lend me more credibility for either position than a person of color will have.
     explainer: ""
     privilege_type: whiteness
-  - sentence: 31. I can choose to ignore developments in minority writing and minority activist programs, or disparage them, or learn from
-  them, but in any case, I can find ways to be more or less protected from negative consequences of any of these choices.
+  - sentence: 31. I can choose to ignore developments in minority writing and minority activist programs, or disparage them, or learn from them, but in any case, I can find ways to be more or less protected from negative consequences of any of these choices.
     explainer: ""
     privilege_type: whiteness
   - sentence: 32. My culture gives me little fear about ignoring the perspectives and powers of people of other races.
@@ -448,28 +441,23 @@ statements:
   - sentence: 34. I can worry about racism without being seen as self-interested or self-seeking.
     explainer: ""
     privilege_type: whiteness
-  - sentence: 35. I can take a job with an affirmative action employer without having my co-workers on the job suspect that I got it
-  because of my race.
+  - sentence: 35. I can take a job with an affirmative action employer without having my co-workers on the job suspect that I got it because of my race.
     explainer: ""
     privilege_type: whiteness
-  - sentence: 36. If my day, week or year is going badly, I need not ask of each negative episode or situation whether it had racial
-  overtones.
+  - sentence: 36. If my day, week or year is going badly, I need not ask of each negative episode or situation whether it had racial overtones.
     explainer: ""
     privilege_type: whiteness
-  - sentence: 37. I can be pretty sure of finding people who would be willing to talk with me and advise me about my next steps,
-  professionally.
+  - sentence: 37. I can be pretty sure of finding people who would be willing to talk with me and advise me about my next steps, professionally.
     explainer: ""
     privilege_type: whiteness
-  - sentence: 38. I can think over many options, social, political, imaginative or professional, without asking whether a person of my race
-  would be accepted or allowed to do what I want to do.
+  - sentence: 38. I can think over many options, social, political, imaginative or professional, without asking whether a person of my race would be accepted or allowed to do what I want to do.
     explainer: ""
     privilege_type: whiteness
   - sentence: 39. I can be late to a meeting without having the lateness reflect on my race.
     explainer: ""
     privilege_type: whiteness
 
-  - sentence: 40. I can choose public accommodation without fearing that people of my race cannot get in or will be mistreated in the
-  places I have chosen.
+  - sentence: 40. I can choose public accommodation without fearing that people of my race cannot get in or will be mistreated in the places I have chosen.
     explainer: ""
     privilege_type: whiteness
   - sentence: 41. I can be sure that if I need legal or medical help, my race will not work against me.
@@ -496,8 +484,7 @@ statements:
   - sentence: 48. I have no difficulty finding neighborhoods where people approve of our household.
     explainer: ""
     privilege_type: whiteness
-  - sentence: 49. My children are given texts and classes which implicitly support our kind of family unit and do not turn them against my
-  choice of domestic partnership.
+  - sentence: 49. My children are given texts and classes which implicitly support our kind of family unit and do not turn them against my choice of domestic partnership.
     explainer: ""
     privilege_type: whiteness
   - sentence: 50. I will feel welcomed and "normal" in the usual walks of public life, institutional and social.
