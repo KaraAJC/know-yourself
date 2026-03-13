@@ -35,7 +35,7 @@
       "communities_affected": [
         "Disabled",
         "Neurodivergent",
-        "Imunocompromised"
+        "Immunocompromised"
       ]
     },
     {
@@ -83,7 +83,7 @@
     },
     {
       "name": "White Supremacy",
-      "explainer": "An amalgamation of multiple privileges, (mainly race and class) that dominate US culture. Based on 'Unpaking the invisible knapsack'",
+      "explainer": "An amalgamation of multiple privileges, (mainly race and class) that dominate US culture. Based on 'Unpacking the invisible knapsack'",
       "slug": "whiteness",
       "communities_affected": []
     }
@@ -547,7 +547,7 @@
     {
       "sentence": "Nobody has ever tried to 'save' me for my religious beliefs.",
       "explainer": "",
-      "privilege_type": "general"
+      "privilege_type": "religion"
     },
     {
       "sentence": "I have never been cyber-bullied for any of my identities.",
@@ -590,7 +590,7 @@
       "privilege_type": "general"
     },
     {
-      "sentence": "I can if I wish arrange to be in the company of people of my race most of the time.",
+      "sentence": "I can, if I wish, arrange to be in the company of people of my race most of the time.",
       "explainer": "",
       "privilege_type": "whiteness"
     },
@@ -725,117 +725,117 @@
       "privilege_type": "whiteness"
     },
     {
-      "sentence": "28. I can be pretty sure that an argument with a colleague of another race is more likely to jeopardize their chances for advancement than to jeopardize mine.",
+      "sentence": "I can be pretty sure that an argument with a colleague of another race is more likely to jeopardize their chances for advancement than to jeopardize mine.",
       "explainer": "",
       "privilege_type": "whiteness"
     },
     {
-      "sentence": "29. I can be pretty sure that if I argue for the promotion of a person of another race, or a program centering on race, this is not likely to cost me heavily within my present setting, even if my colleagues disagree with me.",
+      "sentence": "I can be pretty sure that if I argue for the promotion of a person of another race, or a program centering on race, this is not likely to cost me heavily within my present setting, even if my colleagues disagree with me.",
       "explainer": "",
       "privilege_type": "whiteness"
     },
     {
-      "sentence": "30. If I declare there is a racial issue at hand, or there isn't a racial issue at hand, my race will lend me more credibility for either position than a person of color will have.",
+      "sentence": "If I declare there is a racial issue at hand, or there isn't a racial issue at hand, my race will lend me more credibility for either position than a person of color will have.",
       "explainer": "",
       "privilege_type": "whiteness"
     },
     {
-      "sentence": "31. I can choose to ignore developments in minority writing and minority activist programs, or disparage them, or learn from them, but in any case, I can find ways to be more or less protected from negative consequences of any of these choices.",
+      "sentence": "I can choose to ignore developments in minority writing and minority activist programs, or disparage them, or learn from them, but in any case, I can find ways to be more or less protected from negative consequences of any of these choices.",
       "explainer": "",
       "privilege_type": "whiteness"
     },
     {
-      "sentence": "32. My culture gives me little fear about ignoring the perspectives and powers of people of other races.",
+      "sentence": "My culture gives me little fear about ignoring the perspectives and powers of people of other races.",
       "explainer": "",
       "privilege_type": "whiteness"
     },
     {
-      "sentence": "33. I am not made acutely aware that my shape, bearing or body odor will be taken as a reflection on my race.",
+      "sentence": "I am not made acutely aware that my shape, bearing or body odor will be taken as a reflection on my race.",
       "explainer": "",
       "privilege_type": "whiteness"
     },
     {
-      "sentence": "34. I can worry about racism without being seen as self-interested or self-seeking.",
+      "sentence": "I can worry about racism without being seen as self-interested or self-seeking.",
       "explainer": "",
       "privilege_type": "whiteness"
     },
     {
-      "sentence": "35. I can take a job with an affirmative action employer without having my co-workers on the job suspect that I got it because of my race.",
+      "sentence": "I can take a job with an affirmative action employer without having my co-workers on the job suspect that I got it because of my race.",
       "explainer": "",
       "privilege_type": "whiteness"
     },
     {
-      "sentence": "36. If my day, week or year is going badly, I need not ask of each negative episode or situation whether it had racial overtones.",
+      "sentence": "If my day, week or year is going badly, I need not ask of each negative episode or situation whether it had racial overtones.",
       "explainer": "",
       "privilege_type": "whiteness"
     },
     {
-      "sentence": "37. I can be pretty sure of finding people who would be willing to talk with me and advise me about my next steps, professionally.",
+      "sentence": "I can be pretty sure of finding people who would be willing to talk with me and advise me about my next steps, professionally.",
       "explainer": "",
       "privilege_type": "whiteness"
     },
     {
-      "sentence": "38. I can think over many options, social, political, imaginative or professional, without asking whether a person of my race would be accepted or allowed to do what I want to do.",
+      "sentence": "I can think over many options, social, political, imaginative or professional, without asking whether a person of my race would be accepted or allowed to do what I want to do.",
       "explainer": "",
       "privilege_type": "whiteness"
     },
     {
-      "sentence": "39. I can be late to a meeting without having the lateness reflect on my race.",
+      "sentence": "I can be late to a meeting without having the lateness reflect on my race.",
       "explainer": "",
       "privilege_type": "whiteness"
     },
     {
-      "sentence": "40. I can choose public accommodation without fearing that people of my race cannot get in or will be mistreated in the places I have chosen.",
+      "sentence": "I can choose public accommodation without fearing that people of my race cannot get in or will be mistreated in the places I have chosen.",
       "explainer": "",
       "privilege_type": "whiteness"
     },
     {
-      "sentence": "41. I can be sure that if I need legal or medical help, my race will not work against me.",
+      "sentence": "I can be sure that if I need legal or medical help, my race will not work against me.",
       "explainer": "",
       "privilege_type": "whiteness"
     },
     {
-      "sentence": "42. I can arrange my activities so that I will never have to experience feelings of rejection owing to my race.",
+      "sentence": "I can arrange my activities so that I will never have to experience feelings of rejection owing to my race.",
       "explainer": "",
       "privilege_type": "whiteness"
     },
     {
-      "sentence": "43. If I have low credibility as a leader I can be sure that my race is not the problem.",
+      "sentence": "If I have low credibility as a leader I can be sure that my race is not the problem.",
       "explainer": "",
       "privilege_type": "whiteness"
     },
     {
-      "sentence": "44. I can easily find academic courses and institutions which give attention only to people of my race.",
+      "sentence": "I can easily find academic courses and institutions which give attention only to people of my race.",
       "explainer": "",
       "privilege_type": "whiteness"
     },
     {
-      "sentence": "45. I can expect figurative language and imagery in all of the arts to testify to experiences of my race.",
+      "sentence": "I can expect figurative language and imagery in all of the arts to testify to experiences of my race.",
       "explainer": "",
       "privilege_type": "whiteness"
     },
     {
-      "sentence": "46. I can chose blemish cover or bandages in \"flesh\" color and have them more or less match my skin.",
+      "sentence": "I can chose blemish cover or bandages in \"flesh\" color and have them more or less match my skin.",
       "explainer": "",
       "privilege_type": "whiteness"
     },
     {
-      "sentence": "47. I can travel alone or with my spouse without expecting embarrassment or hostility in those who deal with us.",
+      "sentence": "I can travel alone or with my spouse without expecting embarrassment or hostility in those who deal with us.",
       "explainer": "",
       "privilege_type": "whiteness"
     },
     {
-      "sentence": "48. I have no difficulty finding neighborhoods where people approve of our household.",
+      "sentence": "I have no difficulty finding neighborhoods where people approve of our household.",
       "explainer": "",
       "privilege_type": "whiteness"
     },
     {
-      "sentence": "49. My children are given texts and classes which implicitly support our kind of family unit and do not turn them against my choice of domestic partnership.",
+      "sentence": "My children are given texts and classes which implicitly support our kind of family unit and do not turn them against my choice of domestic partnership.",
       "explainer": "",
       "privilege_type": "whiteness"
     },
     {
-      "sentence": "50. I will feel welcomed and \"normal\" in the usual walks of public life, institutional and social.",
+      "sentence": "I will feel welcomed and \"normal\" in the usual walks of public life, institutional and social.",
       "explainer": "",
       "privilege_type": "whiteness"
     }

@@ -16,7 +16,7 @@ privilege_types = data["privilege_types"].each_with_object({}) do |privilege_dat
   )
 end
 
-statements = data["statements"].map do |statement_data|
+statements = data["statements"].shuffle.map do |statement_data|
   Statement.new(
     statement_data["sentence"],
     statement_data["explainer"],
@@ -59,8 +59,8 @@ sleep(PAUSE_SCALING * 10)
 puts 'would you like a summary of your privileges?(yes or no)'.purple
 
 summary_request = gets.chomp
-if summary_request.downcase == "yes"
- ap results.privileges
+if summary_request.downcase == "yes" || summary_request.downcase == "y"
+ap results.privileges
 end
 
 ap 'OK! close your laptop.'
